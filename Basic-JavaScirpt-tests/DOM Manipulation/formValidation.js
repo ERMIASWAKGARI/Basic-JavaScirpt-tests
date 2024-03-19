@@ -1,11 +1,11 @@
 document
   .getElementById("loginForm")
   .addEventListener("submit", function (event) {
-    var usernameInput = document.getElementById("username");
-    var passwordInput = document.getElementById("password");
-    var usernameError = document.getElementById("usernameError");
-    var passwordError = document.getElementById("passwordError");
-    var successMessage = document.getElementById("successMessage");
+    const usernameInput = document.getElementById("username");
+    const passwordInput = document.getElementById("password");
+    const usernameError = document.getElementById("usernameError");
+    const passwordError = document.getElementById("passwordError");
+    const successMessage = document.getElementById("successMessage");
 
     // Validate username field
     if (usernameInput.value.trim() === "") {
