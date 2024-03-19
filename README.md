@@ -52,3 +52,17 @@ Write a JavaScript function named `divide` that takes two parameters `a` and `b`
 ### Error Handling - JSON Parsing:
 
 Attempt to parse an invalid JSON string "{'name': 'John', 'age': 30}" using `JSON.parse()`. Wrap the parsing code in a try-catch block to handle any errors. If successful, log the parsed object to the console; if an error occurs, log "Error: Invalid JSON string!".
+
+### Viewing the Code
+
+You can download and view the working code by following these steps:
+
+1. Clone this repository to your local machine using the following command:
+
+```
+git clone https://github.com/ERMIASWAKGARI/Basic-JavaScirpt-tests.git
+```
+
+2. Open the downloaded repository in your preferred code editor.
+
+3. For HTML, CSS, and JavaScript files, you can use a live server extension (such as Live Server for Visual Studio Code) to view the code in action. Simply open the HTML file in your code editor and start the live server. You'll be able to interact with the code and see the results in your browser in real-time.
