@@ -1,11 +1,11 @@
 function generateFibonacciSeries(num) {
-  var fibonacciSeries = [];
-  var a = 0,
+  const fibonacciSeries = [];
+  const a = 0,
     b = 1;
 
-  for (var i = 0; i < num; i++) {
+  for (const i = 0; i < num; i++) {
     fibonacciSeries.push(a);
-    var temp = a + b;
+    const temp = a + b;
     a = b;
     b = temp;
   }
@@ -14,13 +14,13 @@ function generateFibonacciSeries(num) {
 }
 
 function generateAndDisplay() {
-  var numInput = document.getElementById("numInput");
-  var resultParagraph = document.getElementById("result");
-  var num = parseInt(numInput.value);
+  const numInput = document.getElementById("numInput");
+  const resultParagraph = document.getElementById("result");
+  const num = parseInt(numInput.value);
 
   // Check if the input is a positive integer
   if (Number.isInteger(num) && num >= 1) {
-    var fibonacciSeries = generateFibonacciSeries(num);
+    const fibonacciSeries = generateFibonacciSeries(num);
     resultParagraph.textContent =
       "Fibonacci Series: " + fibonacciSeries.join(", ");
   } else {
