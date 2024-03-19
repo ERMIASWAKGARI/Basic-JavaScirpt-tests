@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <h2>Form Validation</h2>
+    <form id="loginForm">
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" />
+        <span id="usernameError" style="color: red; display: none"
+          >Please enter a username.</span
+        >
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+        <span id="passwordError" style="color: red; display: none"
+          >Please enter a password.</span
+        >
+      </div>
+      <button type="submit">Submit</button>
+      <div id="successMessage" style="color: green; display: none">
+        Form submitted successfully!
+      </div>
+    </form>
+
+    <script src="formValidation.js"></script>
+  </body>
+</html>
