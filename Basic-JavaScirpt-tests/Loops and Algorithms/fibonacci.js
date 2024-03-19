@@ -1,9 +1,9 @@
 function generateFibonacciSeries(num) {
   const fibonacciSeries = [];
-  const a = 0,
+  let a = 0,
     b = 1;
 
-  for (const i = 0; i < num; i++) {
+  for (let i = 0; i < num; i++) {
     fibonacciSeries.push(a);
     const temp = a + b;
     a = b;
