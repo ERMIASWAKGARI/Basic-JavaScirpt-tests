@@ -18,7 +18,6 @@ function generateAndDisplay() {
   const resultParagraph = document.getElementById("result");
   const num = parseInt(numInput.value);
 
-  // Check if the input is a positive integer
   if (Number.isInteger(num) && num >= 1) {
     const fibonacciSeries = generateFibonacciSeries(num);
     resultParagraph.textContent =
