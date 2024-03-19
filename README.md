@@ -1,6 +1,6 @@
 # Test Task Repository
 
-## Section 1: Loops and Algorithms
+## Task 1: Loops and Algorithms
 
 ### Algorithm - Factorial Calculation:
 
@@ -10,7 +10,7 @@ Write a JavaScript function named `calculateFactorial` that takes an integer `n`
 
 Write a JavaScript function named `generateFibonacciSeries` that takes an integer `num` as input and returns an array containing the Fibonacci series up to the `num`th element.
 
-## Section 2: Objects
+## Task 2: Objects
 
 ### Object - User Profile:
 
@@ -29,7 +29,7 @@ Create an object named `bookInventory` representing a library book inventory. Ea
 - `pages` (number)
 - `available` (boolean)
 
-## Section 3: DOM Manipulation
+## Task 3: DOM Manipulation
 
 ### DOM - Toggle Visibility:
 
@@ -43,7 +43,7 @@ Create an HTML form with fields for "username" and "password", along with a subm
 
 Create an HTML file with an empty div element having an id of "dynamicContent". Using JavaScript, dynamically create and append five paragraph elements to the div. Each paragraph should contain a unique message or text.
 
-## Section 4: Error Handling
+## Task 4: Error Handling
 
 ### Error Handling - Division by Zero:
 
